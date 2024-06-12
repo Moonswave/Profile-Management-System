@@ -1,0 +1,77 @@
+.text{
+    padding-top: 170px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro-heading{
+    font-family:sans-serif;
+    font-size: 65px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 0px 250px;
+}
+
+.pro-para{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 0px 350px;
+    margin-bottom: 80px;
+}
+
+.tempelates{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.temp{
+    padding: 10px;
+    width: 300px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.181); /* Shadow effect */
+    border-radius: 10px;
+}
+
+.temp:hover{
+    background-color: rgb(251, 225, 134) ;
+    scale: 1.05;
+}
+
+.temp:hover .enroll{
+    background-color: white;
+}
+
+.prog-img{
+    height: 150px;
+    width: 280px;
+    border-radius: 20px;
+}
+
+.temp-head{
+    font-family: cursive;
+}
+
+.temp-det{
+    display: flex;
+    justify-content: space-between;
+}
+
+.author{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.enroll{
+    background-color: rgb(251, 225, 134);
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}

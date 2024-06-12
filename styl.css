@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F8F5EC; /* Light background color */
+}
+
+.container {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #283942; /* Dark text color */
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 5px;
+    z-index: 5;
+}
+
+.highlight::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border-radius: 50%;
+    padding: 0.1em 0.4em;
+}
+
+.highlight-red::before {
+    background-color: #F4A7A7; /* Light red background */
+    height: 20px;
+}
+
+.highlight-yellow::before {
+    background-color: #F7E282; /* Light yellow background */
+}

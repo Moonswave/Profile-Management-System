@@ -1,0 +1,59 @@
+.Header{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFFBF0;
+    height: 100%;
+}
+
+.logo{
+    height: 100px;
+}
+
+.context{
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-right: 30px;
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+.butn{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    gap: 30px;
+}
+.sign{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: none;
+    border: none;
+    font-size: 1.3em;
+    width: 90px;
+}
+
+.register{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+}
+
+.arrow{
+    height: 20px;
+    width: 20px;
+}

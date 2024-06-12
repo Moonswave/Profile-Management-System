@@ -1,0 +1,6 @@
+1. After click on sign-In button the user should move to Sign-In Page 
+2. After Successful Sign-In, the user icon should be appeared on place of Sign-In button
+3. On clicking the text on header seaction each should be navigate to particular
+part of web Page 
+4. On Clicking the User Icon, user should move to profile page
+5.
