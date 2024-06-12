@@ -1,0 +1,23 @@
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+
+.foot1{
+    display: flex;
+    gap: 50px;
+}
+
+.foot2{
+    font-size: 20px;
+}
+
+.foot3{
+    text-align: center;
+}
+
+.foot4{
+    width: 100px;
+    height: 100px;
+}
