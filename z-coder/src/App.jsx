@@ -5,6 +5,7 @@ import Home2 from './Home2'
 import Login from './Login'
 import Signin from './Signin'
 import Profile from './Profile'
+import Problem from './Problem'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path='/login' element={<Login/>}/>
             <Route path='/register' element={<Signin/>}/>
             <Route path='/profile' element={<Profile/>}/>
+            <Route path='/problem' element={<Problem/>}/>
           </Routes>
         </Router>
       </div>

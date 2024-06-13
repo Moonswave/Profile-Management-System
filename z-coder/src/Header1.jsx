@@ -7,12 +7,16 @@ const Header1 = () => {
     <>
         <div className='Header'>
             <div>
+              <NavLink to={`/home`}>
             <img src="./src/assets/logo.png" className='logo' />
+            </NavLink>
             </div>
             <div className='context'> 
                 <h2 className='content'>Programs</h2>
                 <h2 className='content'>|</h2>
+                <NavLink to={`/problem`} className='problem'>
                 <h2 className='content'>Problems</h2>
+                </NavLink>
                 <h2 className='content'>|</h2>
                 <h2 className='content'>Calender</h2>
                 <h2 className='content'>|</h2>

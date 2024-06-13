@@ -62,3 +62,8 @@
 .userlogo{
     height: 60px;
 }
+
+.problem{  
+    text-decoration: none;
+    color: black;
+}

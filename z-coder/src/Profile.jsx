@@ -9,7 +9,9 @@ const Profile = () => {
     <div class="container">
         <aside class="sidebar">
             <div class="logo">
+                <NavLink to={`/home`}>
                 <img src="./src/assets/logo.png" alt="Company Logo"/>
+                </NavLink>
             </div>
             <nav className='preferences'>
                 <ul>
