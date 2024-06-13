@@ -1,9 +1,8 @@
 import React from 'react'
 import "./assets/Header.css"
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
-
-const Header = () => {
+const Header1 = () => {
   return (
     <>
         <div className='Header'>
@@ -20,11 +19,8 @@ const Header = () => {
                 <h2 className='content'>Testimonial</h2>
             </div>
             <div className='butn'>
-                <NavLink to={`/login`}>
-                <button className='sign'>Login</button>
-                </NavLink>
-                <NavLink to={`/register`}>
-                <button className='register' type='submit'>Register <img src='https://img.icons8.com/?size=100&id=46913&format=png&color=000000' className='arrow'/></button>
+              <NavLink to={`/profile`}>
+                <img src='./src/assets/6.png' className='userlogo'/>
                 </NavLink>
             </div>
         </div>
@@ -32,4 +28,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header1

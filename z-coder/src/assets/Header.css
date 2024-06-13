@@ -26,8 +26,9 @@
 
 .butn{
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 30px;
     gap: 30px;
 }
 .sign{
@@ -56,4 +57,8 @@
 .arrow{
     height: 20px;
     width: 20px;
+}
+
+.userlogo{
+    height: 60px;
 }

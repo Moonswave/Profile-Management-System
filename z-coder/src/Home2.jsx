@@ -1,15 +1,15 @@
 import React from 'react'
-import Header from './Header'
+import Header1 from './Header1'
 import "./assets/Home.css"
 import Intro from './Intro'
 import Programs from './Programs' 
 import Testimonial from './Testimonial'
 import Footer from './Footer'
 
-const Home = () => {
+const Home2 = () => {
   return (
     <div className='Background'>
-          <Header/>
+          <Header1/>
           <Intro/>
           <Programs/>
           <Testimonial/>
@@ -18,4 +18,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home2
