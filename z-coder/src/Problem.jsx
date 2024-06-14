@@ -27,8 +27,8 @@ const Problem = () => {
         <div className='sidebar1'>
           <nav className='preferences'>
             <h3 className='side1'>Platforms</h3>
-            <ul>
-              <li><a href="https://atcoder.jp/home" target="_blank" className='side2'>Atcoder</a></li>
+            <ul className='side2'>
+              <li className='side2'><a href="https://atcoder.jp/home" target="_blank" className='side2'>Atcoder</a></li>
               <li><a href="https://codeforces.com/problemset" target="_blank" className='side2'>Code Forces</a></li>
               <li><a href="https://www.codechef.com/practice" target="_blank" className='side2'>Code Chef</a></li>
               <li><a href="https://www.geeksforgeeks.org/explore?page=1&sortBy=submissions" target="_blank" className='side2'>Geeks for Geeks</a></li>

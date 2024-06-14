@@ -1,0 +1,64 @@
+/* InfoModal.css */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .inf{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .inf1{
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    background-color: #fff0c6;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .inf1:hover{
+    background-color: #fede7e;
+    scale: 1.1;
+  }
+
+  .country{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
