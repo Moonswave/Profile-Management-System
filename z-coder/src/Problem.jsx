@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header1 from './Header1';
 import InfoModal from './InfoModal';
 import './assets/Problem.css';
@@ -7,6 +7,22 @@ import { NavLink } from 'react-router-dom';
 const Problem = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [problems, setProblems] = useState([]);
+
+  useEffect(() => {
+    const storedProblem = JSON.parse(localStorage.getItem('problems')) || [];
+
+    if (storedProblem.length === 0) {
+        setIsModalOpen(false);
+    } else {
+        setProblems(storedProblem);
+    }
+}, []);
+
+useEffect(() => {
+    if (problems.length > 0) {
+        localStorage.setItem('problems', JSON.stringify(problems));
+    }
+}, [problems]);
 
   const openModal = () => {
     setIsModalOpen(true);

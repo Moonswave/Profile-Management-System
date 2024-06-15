@@ -6,14 +6,14 @@
   }
 
   .log{
-    height: 100vh;
+    height: 100ch;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     background: url('./background_img_signi_n.jpg') no-repeat center center;
     background-size: cover;
     overflow: hidden;
-  }
+  } 
   
   .container {
     display: flex;
